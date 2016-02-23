@@ -1,5 +1,6 @@
 Copyright (c) 2011-2016 Robots And Pencils
 Copyright 2015 Slack Technologies, Inc.
+Copyright (c) 2016 Benjamin Reitzammer
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

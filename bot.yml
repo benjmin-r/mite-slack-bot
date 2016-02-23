@@ -7,10 +7,15 @@ config:
     friendly_name: Severity level to show for logging.
     info: See https://docs.python.org/2/library/logging.html#levels
     default: DEBUG
-  - name: SECRET
-    friendly_name: Shhhh
-    info: This is an secret option
+  - name: MITE_API_KEY
+    friendly_name: API key for the mite.yo.lk service. Get this by visiting your profile page.
+    info: secret option
     type: secret
-    default: not secret though
+    default: somesupersecretstrin
+  - name: MITE_TEAM_NAME
+    friendly_name: Name of your team/account in mite, like 'demo' in demo.mite.yo.lk
+    info: This is a secret option
+    type: secret
+    default: demo
 screenshots:
   - screenshot: resources/screenshot1.png
